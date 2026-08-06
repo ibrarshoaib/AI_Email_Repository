@@ -39,7 +39,6 @@ llm.py
 prompts.py
 Requirements.txt
 README.md
-samples/
 ```
 
 ## Author

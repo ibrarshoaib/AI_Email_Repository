@@ -1,6 +1,7 @@
 from groq import Groq 
+import streamlit as st
 
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets[GROQ_API_KEY])
 
 def generated_email(prompt):
     response = client.chat.completions.create(

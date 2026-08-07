@@ -30,8 +30,6 @@ python main.py
 
 ## API Key
 
-## API Key
-
 This project uses the Groq API for email generation.
 
 The deployed Streamlit application is configured with a secure API key. If you clone this repository and run it locally, you must provide your own Groq API key for the application to work.
